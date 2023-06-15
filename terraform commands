@@ -1,0 +1,12 @@
+terraform init
+terraform plan
+terraform apply
+terraform state list
+terraform show # shows every resource and its data
+terraform state show aws_vpc.<resource name> # shows for a particular resource
+terraform destroy # or terraform apply -destroy
+terraform apply <command> -auto-approve
+terraform fmt  # [beautifies] formats the code	
+terraform console
+terraform apply -refresh-only
+terraform output
